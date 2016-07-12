@@ -1,0 +1,254 @@
+/*
+	RESET
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 
+	
+	typography 
+	
+*/
+
+h2, p {
+	margin-bottom: 34px;
+}
+
+/*
+
+	Header
+	
+*/
+
+.logo {
+	color: #B28C0A;
+	float: left;
+	font-size: 48px;
+	font-weight: 300;
+	letter-spacing: .5px;
+	line-height: 44px;
+	padding: 20px 0 22px 0;
+	text-transform: uppercase;
+}
+.logo a:hover {
+	color: #4159FF;
+}
+
+/*
+
+	Grid
+	
+*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container,
+.grid {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+/*
+
+	Navagation
+	
+*/
+
+.nav ul {
+  float: right;
+  font: bold 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding:6px 10px 0 10px;
+  text-transform: uppercase;
+}
+.nav li {
+  display: inline-block;
+}
+.nav a {
+	background: #0016B2;
+	background: -webkit-linear-gradient(#0016B2, #293f50);
+	background: -moz-linear-gradient(#0016B2, #293f50);
+	background: linear-gradient(#0016B2, #293f50);
+	border-right: 1px solid rgba(0, 0, 0, .3);
+	color: #fff;
+	padding: 12px 20px;
+	text-decoration: none;
+}
+.nav a:hover {
+	background: #0016B2;
+	box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+.nav li:first-child a {
+	margin-left: 100px;
+}
+.nav li:last-child a {
+	border-right: 0;
+}
+
+/*
+
+	Home
+	
+*/
+
+.word {
+	color: #fff;
+	line-height: 44px;
+	padding: 22px 80px 66px 80px;
+	text-align: center;
+}
+.word h2 {
+	font-size: 36px;
+}
+.word p {
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.main img{
+	border: 4px solid #000;
+	float: right;
+	width: 600px;
+	height: 400px;
+	margin-right: 220px;
+	margin-bottom: 40px;
+}
+.gif img {
+	border:4px solid #000;
+	float: right;
+	width: 600px;
+	height: 400px;
+	margin-right: 280px;
+	margin-bottom: 40px;
+}
+/* 
+	
+	Clearfix
+	
+*/
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+	clear: both;
+	*zoom: 1;
+}
+
+/*
+
+	Resume
+	
+*/
+
+.resume {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+/*
+
+	Form
+	
+*/
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: .5em;
+}
